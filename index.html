@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>عالم الحيوانات</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onclick="playSound()">
+
+<div class="menu">
+    <h2>اختر حيوان 🐾</h2>
+
+    <button onclick="selectAnimal('lion'); event.stopPropagation();">🦁</button>
+    <button onclick="selectAnimal('bird'); event.stopPropagation();">🐦</button>
+    <button onclick="selectAnimal('whale'); event.stopPropagation();">🐋</button>
+    <button onclick="selectAnimal('camel'); event.stopPropagation();">🐪</button>
+    <button onclick="selectAnimal('frog'); event.stopPropagation();">🐸</button>
+    <button onclick="selectAnimal('wolf'); event.stopPropagation();">🐺</button>
+    <button onclick="selectAnimal('parrot'); event.stopPropagation();">🦜</button>
+    <button onclick="selectAnimal('monkey'); event.stopPropagation();">🐒</button>
+    <button onclick="selectAnimal('owl'); event.stopPropagation();">🦉</button>
+    <button onclick="selectAnimal('seal'); event.stopPropagation();">🦭</button>
+</div>
+
+<h1 id="animalName">اختر حيوان ثم اضغط الشاشة</h1>
+
+<script src="script.js"></script>
+</body>
+</html>
